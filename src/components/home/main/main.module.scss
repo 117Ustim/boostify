@@ -1,0 +1,24 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.swiper_slider {
+  margin-top: 10%;
+ 
+}
+
+.main_black {
+  margin-top: 60px;
+  max-width: 100%;
+}
+
+ @media (min-width: 460px)  {
+  .swiper_slider2 {
+   display: none;
+  }
+}
+
+
+

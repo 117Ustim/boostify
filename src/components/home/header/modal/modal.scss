@@ -1,0 +1,242 @@
+.modal {
+  max-width: 1200px;
+  // height: 600px;
+  margin: 100px auto;
+  padding: 0 20px;
+}
+.block {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.request {
+  width: 100%;
+
+  height: auto;
+  background: rgb(255, 255, 255);
+  border-radius: 32px 0 0 32px;
+}
+.images {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 32px 32px 0;
+  box-shadow: 2px 7px 16px 0px rgba(0, 0, 0, 0.04),
+    9px 28px 29px 0px rgba(0, 0, 0, 0.03),
+    19px 63px 39px 0px rgba(0, 0, 0, 0.02),
+    35px 111px 47px 0px rgba(0, 0, 0, 0.01),
+    54px 174px 51px 0px rgba(0, 0, 0, 0);
+  background: rgb(213, 213, 249);
+}
+
+.title {
+  color: rgb(0, 0, 0);
+  margin: 48px 0 32px 0;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: -1%;
+  text-align: left;
+}
+.modal_input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 30px;
+}
+.block_input {
+  width: 95%;
+}
+
+.button {
+  width: 100%;
+  height: 48px;
+
+  margin-bottom: 92px;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 40px 12px 40px;
+
+  background: rgb(98, 77, 220);
+
+  color: rgb(255, 255, 255);
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -1%;
+  text-align: left;
+}
+
+.input_name {
+  color: rgb(0, 0, 0);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%;
+  letter-spacing: -1%;
+  text-align: left;
+}
+
+.input {
+  padding-left: 10px;
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  background: rgba(0, 0, 0, 0.06);
+}
+.wide {
+  height: 145px;
+}
+
+@media (min-width: 320px) and (max-width: 460px) {
+  .modal {
+    width: 95%;
+    margin: 90px auto;
+  }
+
+  .request {
+    height: 82%;
+  }
+  .modal_input {
+    padding: 0 10px;
+  }
+  .title {
+    margin: 16px 0 5px 0;
+    font-size: 18px;
+  }
+  .images {
+    height: 82%;
+    img {
+      width: 80%;
+      height: 80%;
+    }
+  }
+  .input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 8px;
+  }
+  .wide {
+    height: 50px;
+  }
+  .button {
+    width: 100%;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .input_name {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 650px) {
+  .modal {
+    width: 95%;
+    margin: 90px auto;
+  }
+
+  .request {
+    height: 88%;
+  }
+  .modal_input {
+    padding: 0 10px;
+  }
+  .title {
+    margin: 16px 0 10px 0;
+    font-size: 24px;
+  }
+  .images {
+    height: 88%;
+    img {
+      width: 80%;
+      height: 80%;
+    }
+  }
+  .input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    font-size: 10px;
+  }
+  .wide {
+    height: 60px;
+  }
+  .button {
+    width: 100%;
+    height: 38px;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .input_name {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 850px) {
+  .modal {
+    width: 90%;
+    margin: 90px auto;
+  }
+
+  .request {
+    height: 90%;
+  }
+  .title {
+    margin: 18px 0 18px 0;
+    font-size: 38px;
+  }
+  .images {
+    height: 90%;
+    img {
+      width: 80%;
+      height: 80%;
+    }
+  }
+  .input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+  .wide {
+    height: 80px;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1000px) {
+  .modal {
+    width: 90%;
+    margin: 90px auto;
+  }
+
+  .request {
+    height: 95%;
+  }
+  .title {
+    margin: 32px 0 24px 0;
+    font-size: 44px;
+  }
+  .images {
+    height: 95%;
+    img {
+      width: 80%;
+      height: 80%;
+    }
+  }
+  .input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 25px;
+  }
+  .wide {
+    height: 100px;
+  }
+}

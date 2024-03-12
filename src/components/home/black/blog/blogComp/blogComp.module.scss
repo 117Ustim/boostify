@@ -1,0 +1,153 @@
+.blogComp {
+}
+.blogComp_img {
+  width: 100%;
+  img {
+    width: 100%;
+  }
+}
+.title {
+  width: 324px;
+  height: 48px;
+  margin-top: 24px;
+
+  p {
+    color: rgb(255, 255, 255);
+
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+  }
+}
+.text {
+  width: 324px;
+  height: 110px;
+  margin-top: 2vw;
+  p {
+    color: rgba(255, 255, 255, 0.8);
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -1%;
+    text-align: left;
+  }
+}
+.data {
+  width: 314px;
+  height: 22px;
+  margin-top: 1vw;
+  p {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -1%;
+    text-align: left;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 650px) {
+  .blogComp_img {
+    width: 70vw;
+  }
+  .title {
+    width: 70vw;
+  }
+  .text {
+    width: 70vw;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 712px) {
+  .blogComp_img {
+    width: 70vw;
+  }
+  .title {
+    width: 70vw;
+  }
+  .text {
+    width: 70vw;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1000px) {
+  .blogComp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blogComp_img {
+    width: 23vw;
+    img {
+      width: 100%;
+    }
+  }
+  .title {
+    width: 23vw;
+  }
+  .text {
+    width: 23vw;
+    margin-top: 5vw;
+  }
+  .data {
+    width: 23vw;
+
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .blogComp {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .blogComp_img {
+      width: 23vw;
+      img {
+        width: 100%;
+      }
+    }
+    .title {
+      width: 23vw;
+    }
+    .text {
+      width: 23vw;
+      margin-top: 3vw;
+    }
+    .data {
+      width: 23vw;
+  
+      margin-top: 3vw;
+    }
+  }
+
+  @media (min-width: 1200px) and (max-width: 100vw) {
+    .blogComp {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .blogComp_img {
+      width: 22.1vw;
+      img {
+        width: 100%;
+      }
+    }
+    .title {
+      width: 23vw;
+    }
+    .text {
+      width: 23vw;
+      margin-top: 3vw;
+    }
+    .data {
+      width: 23vw;
+  
+      margin-top: 3vw;
+    }
+  }

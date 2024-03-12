@@ -1,0 +1,156 @@
+.weAreProduct {
+  position: relative;
+ 
+}
+.container {
+  width: 100%;
+}
+.weAreProduct_block {
+  &::after {
+    position: fixed;
+    display: flex;
+    // z-index: 1;
+
+    right: 0;
+    top: 72px;
+
+    content: "";
+    width: 170px;
+    height: 456.36px;
+    filter: blur(160px);
+    background-color: rgb(122, 101, 214);
+  }
+  &::before {
+    position: fixed;
+    display: flex;
+    // z-index: 0;
+
+    right: 0;
+    top: 700px;
+    left: 0;
+
+    content: "";
+    width: 345px;
+    height: 563px;
+    filter: blur(200px);
+    background: rgb(107, 209, 102);
+  }
+}
+.title {
+  width: 358px;
+
+  color: rgb(0, 0, 0);
+
+  font-size: 36px;
+
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: -1%;
+}
+.title2 {
+  margin-top: 8px;
+  width: 268px;
+  border-radius: 12px;
+  padding: 0px 12px 4px 12px;
+  background: rgb(98, 77, 220);
+
+  p {
+    color: rgb(255, 255, 255);
+
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: -1%;
+    text-align: left;
+  }
+}
+.text {
+  width: 358px;
+  height: 174px;
+  margin-top: 32px;
+  p {
+    color: rgba(0, 0, 0, 0.8);
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 180%;
+    letter-spacing: -1%;
+    text-align: left;
+  }
+}
+.button {
+  margin-top: 2rem;
+
+}
+
+// ------------------------------------------------------media---------------------------------------------------
+@media (min-width: 460px) and (max-width: 650px) {
+  .weAreProduct {
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
+@media (min-width: 650px) and (max-width: 100vw) {
+  .container {
+    display: flex;
+    justify-content: space-evenly;
+
+    .weAreProduct {
+      margin-top: 50px;
+    }
+   
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+
+  
+      .title {
+       
+        font-size: 44px;
+      }
+      .title2 {
+      width: 315px;
+        p {
+          font-size: 44px;
+        }
+      }
+      .text {
+       
+        width: 400px;
+        p {
+      
+      
+          font-size: 17px;
+        
+        }
+      }
+    }
+  
+
+@media (min-width: 1200px) and (max-width: 100vw) {
+  .title {
+    width: 410px;
+    font-size: 52px;
+  }
+  .title2 {
+    width: 367px;
+    p {
+      font-size: 52px;
+    }
+  }
+  .text {
+    width: 462px;
+ 
+    p {
+  
+  
+      font-size: 18px;
+    
+    }
+  }
+}

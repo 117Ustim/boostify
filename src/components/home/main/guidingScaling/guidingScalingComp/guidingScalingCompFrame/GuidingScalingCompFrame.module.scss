@@ -1,0 +1,144 @@
+.guidingScalingCompFrame {
+  width: 346px;
+
+  border-radius: 10px;
+  box-shadow: 2px 7px 16px 0px rgba(0, 0, 0, 0.04),
+    9px 28px 29px 0px rgba(0, 0, 0, 0.03),
+    19px 63px 39px 0px rgba(0, 0, 0, 0.02),
+    35px 111px 47px 0px rgba(0, 0, 0, 0.01),
+    54px 174px 51px 0px rgba(0, 0, 0, 0);
+  background: rgb(255, 255, 255);
+
+  padding: 12px;
+}
+
+
+.guidingScalingCompFrame_image {
+  img {
+    width: 42px;
+    height: 42px;
+  }
+}
+.guidingScalingCompFrame_title {
+  margin-top: 12px;
+  width: 334px;
+  height: 21px;
+  p {
+    color: rgb(0, 0, 0);
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -1%;
+    text-align: left;
+  }
+}
+.guidingScalingCompFrame_text {
+  margin-top: 12px;
+  width: 334px;
+  height: auto;
+  p {
+    color: rgb(0, 0, 0);
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 160%;
+    letter-spacing: -1%;
+    text-align: left;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 650px) {
+  .guidingScalingCompFrame {
+    width: 400px;
+    padding: 20px 40px 20px 40px;
+  }
+}
+
+@media (min-width: 650px) and (max-width: 850px) {
+  .guidingScalingCompFrame {
+    width: 580px;
+    padding: 30px 70px 30px 70px;
+  }
+  .guidingScalingCompFrame_text {
+    width: 500px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1000px) {
+  .guidingScalingCompFrame {
+    width: 400px;
+    padding: 20px 40px 20px 40px;
+  }
+  .guidingScalingCompFrame_title {
+    p {
+      color: rgb(0, 0, 0);
+
+      font-size: 18px;
+    }
+    .guidingScalingCompFrame_text {
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .guidingScalingCompFrame {
+    width: 470px;
+    padding: 20px 40px 20px 40px;
+  }
+  .guidingScalingCompFrame_image {
+    img {
+      width: 64px;
+      height: 64px;
+    }
+  }
+  .guidingScalingCompFrame_title {
+    width: 400px;
+
+    p {
+      color: rgb(0, 0, 0);
+
+      font-size: 20px;
+    }
+  }
+  .guidingScalingCompFrame_text {
+    width: 420px;
+    p {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 100vw) {
+  .guidingScalingCompFrame {
+    width: 530px;
+    padding: 32px;
+  }
+  .guidingScalingCompFrame_image {
+    img {
+      width: 64px;
+      height: 64px;
+    }
+  }
+  .guidingScalingCompFrame_title {
+    width: 400px;
+
+    p {
+      color: rgb(0, 0, 0);
+
+      font-size: 20px;
+    }
+  }
+  .guidingScalingCompFrame_text {
+    width: 420px;
+    p {
+      font-size: 18px;
+    }
+  }
+}

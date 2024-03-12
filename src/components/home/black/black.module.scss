@@ -1,0 +1,123 @@
+.stars_block {
+  display: none;
+
+}
+.black {
+ display: flex;
+justify-content: center;
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+  z-index: 2;
+  background: rgb(0, 0, 0);
+  position: relative;
+}
+
+.raket {
+  position: absolute;
+  top: -55px;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8%;
+  img {
+    width: 40%;
+  }
+}
+.stars1_1 {
+  width: 90%;
+
+  position: absolute;
+  top: 0px;
+  left: 30px;
+
+  img {
+    width: 100%;
+    height: 60vh;
+  }
+}
+
+@media (min-width: 460px) and (max-width: 650px) {
+  .stars1_1 {
+    width: 100%;
+    left: 0px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 650px) and (max-width: 850px) {
+  .stars_block {
+    display: flex;
+
+    gap: 50px;
+    position: absolute;
+  }
+  .stars1,
+  .stars2 {
+    width: 50%;
+    img {
+      width: 100%;
+      height: 30vh;
+    }
+  }
+  .stars1_1 {
+    display: none;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1000px) {
+  .stars_block {
+    display: flex;
+
+    gap: 50px;
+    position: absolute;
+  }
+  .stars1,
+  .stars2 {
+    width: 50%;
+    img {
+      width: 100%;
+      height: 35vh;
+    }
+  }
+  .stars1_1 {
+    display: none;
+  }
+  .raket {
+    top: -68px;
+
+    img {
+      width: 50%;
+    }
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 100vw) {
+  .stars_block {
+    display: flex;
+
+    gap: 180px;
+    position: absolute;
+  }
+  .stars1,
+  .stars2 {
+    width: 50%;
+    img {
+      width: 100%;
+      height: 35vh;
+    }
+  }
+  .stars1_1 {
+    display: none;
+  }
+  .raket {
+    top: -98px;
+
+    img {
+      width: 70%;
+    }
+  }
+}
